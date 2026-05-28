@@ -1,0 +1,25 @@
+# General Workflow Rules
+
+## Objetivo
+
+Mantener generación de código clara, incremental, revisable y documentada durante las prácticas del curso de Cursor AI.
+
+---
+
+## Reglas
+
+- No generar proyectos completos automáticamente.
+- Trabajar únicamente sobre el objetivo solicitado en cada iteración.
+- Explicar brevemente qué se construirá antes de generar código.
+- Priorizar legibilidad sobre optimización prematura.
+- Mantener el código simple y fácil de revisar.
+- No asumir contexto inexistente.
+- Usar nombres descriptivos y consistentes.
+- Sugerir validaciones y pruebas básicas cuando aporten valor.
+- Evitar duplicación innecesaria de lógica.
+- Explicar posibles riesgos o limitaciones de la solución.
+- No agregar funcionalidades no solicitadas.
+- Ayudar a entender el código generado, no solo producirlo.
+- Mantener separación clara de responsabilidades.
+- Favorecer mejoras progresivas y refactors pequeños.
+- Priorizar aprendizaje y comprensión técnica sobre velocidad de generación.
