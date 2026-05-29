@@ -252,3 +252,198 @@ Cursor generó una explicación técnica del flujo del servicio y las validacion
 Observaciones:
 - Útil para fines de documentación.
 - Ayuda a comprender el código generado antes de aceptar los cambios.
+
+---
+
+# Day 03 Prompts
+
+## Prompt 1 - Initial Ticket Service Generation
+
+Prompt:
+Genera un servicio simple en JavaScript para gestión de tickets.
+
+Requisitos:
+- almacenar tickets en memoria
+- crear tickets
+- validar campos requeridos
+- evitar tickets duplicados por título
+- permitir actualizar estado del ticket
+- manejar prioridades: baja, media y alta
+
+Instrucciones:
+- usa funciones pequeñas y reutilizables
+- utiliza nombres descriptivos
+- agrega comentarios solo si son necesarios
+- prioriza legibilidad
+- evita complejidad innecesaria
+- maneja errores básicos
+
+Resultado:
+Cursor generó un servicio inicial de gestión de tickets con validación y manejo de estado.
+
+Observaciones:
+- La estructura inicial parece organizada.
+- Aún se requiere una revisión manual antes de aceptar la implementación.
+
+---
+
+## Prompt 2 - Improvement Request After Human Review
+
+Prompt:
+Refactorización Robusta De `ticket-service.js`
+
+Actúa como un Senior Software Engineer especializado en Node.js, Clean Code y Defensive Programming.
+
+Refactoriza y fortalece el servicio de tickets para que sea mucho más robusto, mantenible, escalable y preparado para escenarios reales y edge cases.
+
+## Objetivos principales
+
+Mejorar:
+
+* validaciones,
+* manejo de errores,
+* consistencia de datos,
+* estructura,
+* seguridad ante inputs inválidos,
+* mantenibilidad,
+* extensibilidad futura.
+
+---
+
+# Requisitos Clave
+
+## Validaciones defensivas
+
+Todas las funciones deben validar sus propios parámetros y nunca asumir que reciben datos válidos.
+
+Proteger contra:
+
+```js id="mbz4nd"
+undefined
+null
+{}
+[]
+NaN
+strings vacíos
+tipos incorrectos
+```
+
+---
+
+## IDs seguros
+
+No usar:
+
+```js id="l2j74s"
+tickets.length + 1
+```
+
+Implementar IDs robustos usando UUID o un sistema seguro que evite duplicados.
+
+---
+
+## Normalización consistente
+
+Aplicar:
+
+* `trim()`
+* `toLowerCase()` cuando corresponda
+
+para títulos, prioridades y estados.
+
+---
+
+## Validaciones completas
+
+Agregar validaciones para:
+
+* prioridades inválidas,
+* estados inválidos,
+* longitud máxima,
+* caracteres inválidos,
+* duplicados,
+* IDs inválidos,
+* objetos mal formados.
+
+---
+
+## Estados controlados
+
+Definir:
+
+```js id="rbv0ju"
+VALID_STATUSES
+```
+
+y evitar aceptar cualquier string como estado.
+
+---
+
+## Manejo profesional de errores
+
+Los errores deben ser:
+
+* claros,
+* específicos,
+* consistentes.
+
+Diferenciar entre:
+
+```txt id="c7du1x"
+Invalid ticket id
+```
+
+y:
+
+```txt id="n0g6qv"
+Ticket not found
+```
+
+---
+
+## Arquitectura limpia
+
+Separar responsabilidades claramente:
+
+* helpers,
+* validaciones,
+* lógica de negocio,
+* almacenamiento,
+* respuestas API.
+
+Aplicar principios:
+
+* Clean Code,
+* DRY,
+* Single Responsibility Principle,
+* Defensive Programming.
+
+---
+
+## Escalabilidad futura
+
+Preparar el código para:
+
+* persistencia futura,
+* bases de datos,
+* testing,
+* crecimiento del sistema.
+
+---
+
+## Edge Cases
+
+Contemplar escenarios como:
+
+* duplicados con espacios,
+* mayúsculas/minúsculas,
+* strings enormes,
+* arrays inesperados,
+* objetos inválidos,
+* tickets inexistentes,
+* estados inconsistentes,
+* mutaciones accidentales.
+
+---
+
+El resultado debe verse como código escrito por un Senior Engineer con enfoque profesional, resiliente y preparado para producción básica.
