@@ -1,0 +1,20 @@
+---
+description: Rules for controlled code generation
+globs:
+alwaysApply: true
+---
+
+# Reglas para la generación de código
+
+- Genera código legible y fácil de mantener.
+- Usa nombres descriptivos para variables y funciones.
+- Evita la complejidad innecesaria.
+- Añade comentarios breves solo cuando la lógica no sea evidente.
+- Prioriza las funciones pequeñas y reutilizables.
+- No generes código que no se utilice.
+- Valida los posibles casos límite.
+- Mantén un formato consistente.
+- Evita duplicar la lógica.
+- Explica las decisiones importantes al generar código.
+- No asumas dependencias externas a menos que se soliciten explícitamente.
+- Prioriza la claridad sobre la brevedad del código.

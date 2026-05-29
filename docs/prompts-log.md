@@ -138,3 +138,117 @@ Cursor identificó:
 ### Observaciones
 
 Este prompt ayudó a evaluar límites de la solución actual y pensar en mejoras futuras sin sobreingeniería.
+
+# Día 02 Prompts
+
+## Prompt 1 - Before Rules
+
+Indicación:
+Crea un servicio de usuario JavaScript sencillo que:
+- almacene usuarios en memoria
+- permita añadir usuarios
+- valide el formato del correo electrónico
+- evite correos electrónicos duplicados
+- devuelva mensajes de éxito o error
+
+Resultado:
+Cursor generó una solución funcional, pero la estructura y la mantenibilidad pueden variar sin reglas explícitas.
+
+Observaciones:
+- Se proporcionó una guía mínima.
+
+- Resulta útil para comparar con la generación basada en reglas.
+
+---
+
+## Prompt 2 - After Rules
+
+Prompt:
+Genera un servicio simple en JavaScript para gestión de usuarios.
+
+Requisitos:
+- almacenar usuarios en memoria
+- permitir agregar usuarios
+- validar formato de email
+- evitar correos duplicados
+- retornar mensajes claros de éxito y error
+
+Instrucciones importantes:
+- usa nombres descriptivos
+- evita duplicar lógica
+- divide responsabilidades en funciones pequeñas
+- prioriza legibilidad y mantenimiento
+- agrega comentarios solo donde sea necesario
+- maneja posibles edge cases
+- mantén una estructura consistente y fácil de revisar
+
+Resultado:
+La solución generada fue más limpia, más fácil de entender y más fácil de mantener.
+
+Observaciones:
+- Mejor estructura en comparación con la versión sin reglas.
+
+- El flujo de validación mejoró significativamente.
+
+- Las convenciones de nomenclatura se volvieron más consistentes.
+
+---
+
+## Prompt 3 - Validation Improvement
+
+Prompt:
+Mejora la validación de correos electrónicos del servicio actual.
+
+Requisitos:
+- evitar valores vacíos
+- validar espacios innecesarios
+- manejar entradas inválidas
+- mantener el código legible
+- no romper la estructura actual
+
+Resultado:
+El cursor mejoró la validación de entrada y gestionó casos límite adicionales.
+
+Observaciones:
+- La validación se volvió más robusta.
+- Se consideraron con mayor detenimiento los casos límite.
+
+---
+
+## Prompt 4 - Refactor Request
+
+Prompt:
+Refactoriza el servicio para que las responsabilidades estén mejor separadas.
+
+Objetivos:
+- evitar lógica repetida
+- mejorar legibilidad
+- mantener funcionalidad actual
+- usar funciones reutilizables
+
+Resultado:
+Cursor reorganizó partes del código en funciones reutilizables más pequeñas.
+
+Observaciones:
+- Mejoró la legibilidad del código.
+- La lógica se volvió más fácil de mantener.
+
+---
+
+## Prompt 5 - Technical Explanation
+
+Prompt:
+Explica cómo funciona el flujo principal del servicio de usuarios.
+
+Incluye:
+- validaciones
+- prevención de duplicados
+- manejo de errores
+- estructura general
+
+Resultado:
+Cursor generó una explicación técnica del flujo del servicio y las validaciones.
+
+Observaciones:
+- Útil para fines de documentación.
+- Ayuda a comprender el código generado antes de aceptar los cambios.

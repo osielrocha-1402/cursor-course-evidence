@@ -1,0 +1,17 @@
+---
+description: Documentation standards
+globs:
+alwaysApply: true
+---
+
+# Reglas de documentación
+
+- Explica el propósito del código generado.
+- Documenta las indicaciones y los resultados importantes.
+- Mantén las explicaciones concisas y técnicas.
+- Usa formato Markdown para facilitar la lectura.
+- Describe las mejoras y correcciones.
+- Incluye observaciones sobre errores o limitaciones.
+- Redacta la documentación asumiendo que otro desarrollador la revisará.
+- Evita descripciones vagas.
+- Prioriza las explicaciones prácticas sobre el texto teórico.
