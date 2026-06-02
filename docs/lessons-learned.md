@@ -75,3 +75,58 @@ El primer día permitió entender el flujo básico de trabajo con Cursor AI:
 - mejora incremental
 
 También se preparó la estructura base que se utilizará durante el resto del curso.
+
+# Lecciones Aprendidas
+
+## La Calidad de la Indicación Importa
+
+La calidad de los resultados generados depende en gran medida de la calidad de la indicación.
+
+Los requisitos claros producen resultados más predecibles.
+
+--
+
+## Las Reglas Mejoran la Consistencia
+
+Las reglas personalizadas del cursor ayudan a mantener:
+
+- los estándares de codificación
+- la calidad de la documentación
+- las prácticas de prueba
+
+---
+
+## La Revisión Humana Sigue SIENDO ESENCIAL
+
+El código generado nunca debe aceptarse a ciegas.
+
+La revisión manual ayuda a identificar:
+
+- errores de lógica
+- validaciones faltantes
+- problemas de mantenibilidad
+
+---
+
+## La Iteración Produce Mejores Resultados
+
+Los mejores resultados se lograron mediante:
+
+1. Generación inicial
+2. Revisión humana
+3. Solicitudes de mejora
+4. Validación
+
+---
+
+## Las Pruebas Son Fundamentales
+
+Las pruebas brindan confianza al aplicar cambios y refactorizaciones.
+
+También ayudan a detectar regresiones introducidas durante el desarrollo.
+
+---
+
+## El contexto mejora el rendimiento de la IA
+
+Proporcionar el contexto del proyecto mejora significativamente la calidad de los resultados y reduce la ambigüedad.
