@@ -447,3 +447,27 @@ Contemplar escenarios como:
 ---
 
 El resultado debe verse como código escrito por un Senior Engineer con enfoque profesional, resiliente y preparado para producción básica.
+
+# Día 04 Prompts
+
+## Prompt 01 - Test Generation
+
+Prompt:
+Genera pruebas para el servicio de tickets actual.
+
+Objetivos:
+- validar creación de tickets
+- validar prevención de duplicados
+- validar prioridades permitidas
+- validar actualización de estados
+- validar escenarios de error
+
+Las pruebas deben ser simples, legibles y fáciles de ejecutar.
+
+Resultado:
+Cursor generó un conjunto básico de pruebas que abarca el comportamiento principal del servicio.
+
+Observaciones:
+- Se cubre la funcionalidad principal.
+- Se incluyen escenarios de error.
+- Las pruebas son legibles y fáciles de revisar.

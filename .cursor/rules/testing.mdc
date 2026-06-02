@@ -1,0 +1,17 @@
+---
+description: Testing standards for generated code
+globs:
+alwaysApply: true
+---
+
+# Reglas de prueba
+
+- Genera pruebas para la funcionalidad crítica.
+- Cubre los casos ideales y los casos límite.
+- Usa nombres de prueba claros.
+- Mantén las pruebas independientes.
+- Evita el uso de simulaciones innecesarias.
+- Valida tanto los escenarios de éxito como los de fallo.
+- Prioriza la legibilidad sobre las estructuras de prueba complejas.
+- Asegúrate de que las pruebas se puedan ejecutar fácilmente.
+- Documenta el propósito de cada grupo de pruebas.
